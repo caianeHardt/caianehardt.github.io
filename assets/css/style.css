@@ -1,27 +1,76 @@
 body {
-    width: 100%;
-    height: auto;
     margin: 0;
-   
-    
+    height: 100%;
 }
+
 header {
     width: 100%;
-    
     box-sizing: 100%;
-    background: linear-gradient(rgb(122, 175, 182), white);
     padding: 20px 0;
     
 }
+
+.sobre {
+    text-align: center;
+    padding: 50px;
+    background-color: #17161d;
+    max-width: 100%;
+}
+
+.larguraMaxContainer {
+    padding: 100px 50px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+#apresentacaoFoto {
+    text-align: left;
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 100px;
+}
+
+#apresentacaoTexto {
+    text-align: left;
+    display: inline-block;
+    line-height: 8px;
+    vertical-align: top;
+
+}
+
+#fundo {
+    border-radius: 100%;
+    width: 150px;
+}
+
+#imagetecnologias {
+    width: 500px;
+   text-align: left;
+}
+
+.img-text {
+    
+}
+.texto-quem-sou {
+    margin: 12px 350px;
+    display: inline-block;
+    text-align: center;
+    
+    
+    
+}
+
+
 
 .navbar {
     text-align: center;
 }
 
 ul li {
-  list-style: none;
-  padding: 25px;
-  display: inline; 
+
+    list-style: none;
+    padding: 25px;
+    display: inline; 
 }
 
 /*a=links navbar*/
@@ -34,15 +83,11 @@ a {
     text-align: center;
 } 
 
- .email {
+.icons-contact {
     text-align: center;
- }
+}
 
- .contact {
-    
- }
-
- .contact a {
+.contact a {
     width: 100%;
     top: 0;
     left: 0;
@@ -60,7 +105,6 @@ a {
 
 footer {
     text-align: center;
-    background: linear-gradient(white,rgb(122, 175, 182));
-    background-repeat: repeat;
     padding: 40px 0;
 }
+

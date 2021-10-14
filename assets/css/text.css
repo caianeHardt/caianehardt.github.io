@@ -5,5 +5,20 @@
 
 .titulos {
     text-align: center;
-    font-family: 'Noto Serif', serif;    
+    font-family: 'Noto Serif', serif;  
+    font-size: 30px;  
+}
+
+h2 {
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    color: turquoise;
+}
+
+#apresentacaoTexto {
+    color:rgb(92, 121, 118);
+}
+.texto-quem-sou {
+    font-size: 20px;
+
 }
