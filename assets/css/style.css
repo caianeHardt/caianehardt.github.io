@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    box-sizing: 100%;
+    padding: 20px 0;
+    position: fixed;
+    background-color:black;
+    
+}
+
+/*a=links navbar*/
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar {
+    text-align: center;
+    
+    
+}
+
+li :hover {
+    font-weight: bold;
+    color: turquoise;
+    text-transform:uppercase;    
+}
+
+ul li {
+
+    list-style: none;
+    padding: 25px;
+    display: inline; 
+}
+
+.sobre {
+    background-color: black;
+    max-width: 100%;
+}
+
+.larguraMaxContainer {
+    padding: 100px 50px;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+#apresentacaoFoto {
+    text-align: left;
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 100px;
+}
+
+.quem-sou {
+    width: 100%;
+    background-color: rgb(242, 255, 253);
+
+}
+
+#texto-quem-sou {
+    padding-left: 20px;
+}
+
+#apresentacaoTexto {
+    text-align: left;
+    display: inline-block;
+    line-height: 8px;
+    vertical-align: top;
+    padding-top: 45px;
+    background-color: black;
+
+}
+
+#fundo {
+    border-radius: 100%;
+    width: 150px;
+
+}
+
+#imagetecnologias {
+    width: 500px;
+   text-align: left;
+}
+
+.img-texts {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 400px;
+    
+}
+
+.conhecimentos {
+    padding-top: 15px;
+    padding-bottom: 15px;    
+}
+
+#icones-cores {
+    padding-top: 20px;
+    text-align: center;
+}
+.contatos p {
+    text-align: center;
+} 
+
+.icons-contact {
+    text-align: center;
+}
+
+.contact a {
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: inline;
+    background-color: aqua;
+    border: 20px;
+    padding: 50px;
+}
+
+.icons {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+
+.icons-contact :hover {
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);   
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+}
+
