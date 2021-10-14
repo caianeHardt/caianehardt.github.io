@@ -1,9 +1,6 @@
 
 header {
     width: 100%;
-    top: 0;
-    left: 0;
-    display: block;
     background-color: aqua;
     max-width: 1140px;
     border: 20px;
@@ -17,9 +14,7 @@ header {
   list-style: none;
   margin: 20px;
   padding: 20px;
-  display: inline;
-  
-    
+  display: inline; 
 }
 
 a {
@@ -27,18 +22,14 @@ a {
     color: inherit;
 }
 
-.titulos {
-    text-align: center;
-    font-family: 'Noto Serif', serif;    
-}
-
-.conhecimentos {
-    
-}
-
 .contatos p {
     text-align: center;
-}
+    font-family: 'Noto Serif', serif;    
+} 
+
+ .email {
+     text-align: center;
+ }
 
 .icones-contatos {
     list-style: none;
