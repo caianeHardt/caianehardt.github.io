@@ -9,6 +9,7 @@ header {
     padding: 20px 0;
     position: fixed;
     background-color:black;
+    z-index: 1;
     
 }
 
@@ -175,7 +176,7 @@ footer {
 
     #apresentacaoFoto {
         margin-top: 90px;
-        padding-left: 39px;
+        padding-left: 33px;      
     }
 
     #name {
@@ -192,6 +193,8 @@ footer {
 
     .img-texts {
         display: inline-block;
+        padding-left: 0;
+        text-align: left;
     }
 
     .quem-sou {
@@ -201,18 +204,18 @@ footer {
 
     #texto-quem-sou {
         position: relative;
+        text-align: center;
     }
-
-    .conhecimentos {
-        
-    }
+    
+    
 
     #icones-cores {
         padding-bottom: 5px;
+        padding-top: 0;
     }
     #icones-cores img {
         padding-left: 5px;
-        padding-top: 10px;
+        padding-top: 5px;
     }
 }
 
@@ -223,9 +226,13 @@ footer {
 }
 
 
-@media screen and (min-width: 768),(max-width: 1024px) {
+@media screen and (max-width: 769px) {
     #texo-quem-sou {
         padding-top: 90px;
+    }
+
+    #imagetecnologias {
+        display: inline-block;
     }
 
     .quem-sou > .larguraMaxContainer {
