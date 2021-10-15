@@ -226,7 +226,7 @@ footer {
 }
 
 
-@media screen and (max-width: 769px) {
+@media screen and (min-width: 769px) {
     #texo-quem-sou {
         padding-top: 90px;
     }
